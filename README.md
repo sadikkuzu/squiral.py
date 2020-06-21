@@ -1,5 +1,6 @@
 # squiral.py
-## **squ**are sp**iral**
+
+**squ**are sp**iral**
 
 ```
 Welcome to Squiral!
