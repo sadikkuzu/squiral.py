@@ -49,7 +49,7 @@ def printout(s):
         print()
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     print("Welcome to Squiral!")
     print("Here is an example:")
     try:
