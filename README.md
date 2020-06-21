@@ -10,3 +10,5 @@ Here is an example:
 18  5  4  3 12
 17 16 15 14 13
 ```
+
+[![run on repl.it](http://repl.it/badge/github/sadikkuzu/squiral.py)](https://repl.it/github/sadikkuzu/squiral.py) 
