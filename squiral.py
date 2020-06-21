@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # SADIK KUZU (c) 2020
 
+import sys
 from math import sqrt, log10
 
 directions = [["up", "right"],["down","left"]]
@@ -51,4 +52,8 @@ def printout(s):
 if __name__ == "__main__":
     print("Welcome to Squiral!")
     print("Here is an example:")
-    printout(produce(5))
+    try:
+        size = int(sys.argv[1])  # try: python3 squiral.py 7
+    except:
+        size = 5
+    printout(produce(size))
