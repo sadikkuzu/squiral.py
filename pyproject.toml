@@ -1,0 +1,17 @@
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool]
+[tool.poetry]
+name = "squiral"
+version = "0.1.0"
+description = "squiral - square spiral"
+authors = ["Sadık Kuzu"]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+pytest = "^5.4.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.3"
