@@ -40,7 +40,7 @@ def produce(size):
     return s
 
 
-def printout(s):
+def printout(s):  # pragma: no cover
     R = C = len(s)
     RJ = int( log10(R*C) ) + 1
     for r in range(R):
