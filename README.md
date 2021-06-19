@@ -13,3 +13,5 @@ Here is an example:
 ```
 
 [![run on repl.it](http://repl.it/badge/github/sadikkuzu/squiral.py)](https://repl.it/github/sadikkuzu/squiral.py)
+
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/sadikkuzu/squiral.py/master.svg)](https://results.pre-commit.ci/latest/github/sadikkuzu/squiral.py/master)
