@@ -12,4 +12,4 @@ Here is an example:
 17 16 15 14 13
 ```
 
-[![run on repl.it](http://repl.it/badge/github/sadikkuzu/squiral.py)](https://repl.it/github/sadikkuzu/squiral.py) 
+[![run on repl.it](http://repl.it/badge/github/sadikkuzu/squiral.py)](https://repl.it/github/sadikkuzu/squiral.py)
