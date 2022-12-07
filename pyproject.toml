@@ -10,11 +10,10 @@ description = "squiral - square spiral"
 authors = ["Sadık Kuzu"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-pytest = "^6.2"
+python = "^3.8.1"
 
-[tool.poetry.dev-dependencies]
-pytest = "^6.2"
-pytest-cov = "^2.10.0"
-flake8 = "^3.9.0"
-pre-commit = "^2.13.0"
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+flake8 = "^6.0.0"
+pre-commit = "^2.20.0"
