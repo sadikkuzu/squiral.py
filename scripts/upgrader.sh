@@ -10,5 +10,5 @@ pip-compile -vU
 pip-compile -vU requirements-dev.in
 pip install -r requirements-dev.txt
 pre-commit autoupdate
-pre-commit run --all-files
+pre-commit run --all-files --color=always
 poetry update
