@@ -26,13 +26,11 @@ jobs:
         python-version: 3.x
         cache: pip
 
-    - name: set PY
-      run: echo "PY=$(python -VV | sha256sum | cut -d' ' -f1)" >> $GITHUB_ENV
     - uses: actions/cache@v3
       if: startsWith(runner.os, 'Linux')
       with:
         path: ~/.cache/pre-commit
-        key: ${{ runner.os }}|pre-commit|${{ env.PY }}|${{ hashFiles('.pre-commit-config.yaml') }}
+        key: ${{ runner.os }}|pre-commit
 
     - name: Run pip-compile, install requirements, and pre-commit autoupdate
       run: ./scripts/upgrader.sh
