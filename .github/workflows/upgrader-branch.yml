@@ -38,6 +38,7 @@ jobs:
       run: |
         git pull
         git merge origin/master --no-edit
+        git push
         ./scripts/upgrader.sh
 
     - name: Run tests
