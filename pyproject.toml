@@ -4,7 +4,7 @@ build-backend = "poetry.masonry.api"
 
 [tool]
 [tool.poetry]
-name = "squiral"
+name = "squiral.py"
 version = "0.1.0"
 description = "squiral - square spiral"
 authors = ["Sadık Kuzu"]
