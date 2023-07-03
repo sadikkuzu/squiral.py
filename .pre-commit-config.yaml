@@ -41,7 +41,7 @@ repos:
         additional_dependencies:
           - flake8-bugbear
 -   repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: v0.0.275
+    rev: v0.0.276
     hooks:
     -   id: ruff
 -   repo: https://github.com/pre-commit/mirrors-mypy
