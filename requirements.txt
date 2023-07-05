@@ -4,5 +4,5 @@
 #
 #    pip-compile
 #
-squiral==0.4.1
+squiral==0.4.2
     # via -r requirements.in
