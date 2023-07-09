@@ -121,7 +121,7 @@ requests==2.31.0
     #   requests-toolbelt
 requests-toolbelt==1.0.0
     # via poetry
-rpds-py==0.8.8
+rpds-py==0.8.10
     # via
     #   jsonschema
     #   referencing
@@ -148,7 +148,7 @@ webencodings==0.5.1
     # via html5lib
 wheel==0.40.0
     # via pip-tools
-zipp==3.15.0
+zipp==3.16.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
