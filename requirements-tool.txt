@@ -56,7 +56,7 @@ jeepney==0.8.0
     # via
     #   keyring
     #   secretstorage
-jsonschema==4.18.0
+jsonschema==4.18.2
     # via poetry
 jsonschema-specifications==2023.6.1
     # via jsonschema
