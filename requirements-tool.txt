@@ -24,7 +24,7 @@ charset-normalizer==3.2.0
     # via requests
 cleo==2.0.1
     # via poetry
-click==8.1.4
+click==8.1.5
     # via pip-tools
 crashtest==0.4.1
     # via
@@ -56,7 +56,7 @@ jeepney==0.8.0
     # via
     #   keyring
     #   secretstorage
-jsonschema==4.18.2
+jsonschema==4.18.3
     # via poetry
 jsonschema-specifications==2023.6.1
     # via jsonschema
@@ -148,7 +148,7 @@ webencodings==0.5.1
     # via html5lib
 wheel==0.40.0
     # via pip-tools
-zipp==3.16.0
+zipp==3.16.1
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
