@@ -32,7 +32,7 @@ crashtest==0.4.1
     #   poetry
 cryptography==41.0.2
     # via secretstorage
-distlib==0.3.6
+distlib==0.3.7
     # via virtualenv
 dulwich==0.21.5
     # via poetry
@@ -106,7 +106,7 @@ pyproject-hooks==1.0.0
     # via
     #   build
     #   poetry
-pyyaml==6.0
+pyyaml==6.0.1
     # via pre-commit
 rapidfuzz==2.15.1
     # via cleo
@@ -121,7 +121,7 @@ requests==2.31.0
     #   requests-toolbelt
 requests-toolbelt==1.0.0
     # via poetry
-rpds-py==0.8.10
+rpds-py==0.8.11
     # via
     #   jsonschema
     #   referencing
