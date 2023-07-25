@@ -66,7 +66,7 @@ lockfile==0.12.2
     # via
     #   cachecontrol
     #   poetry
-more-itertools==9.1.0
+more-itertools==10.0.0
     # via jaraco-classes
 msgpack==1.0.5
     # via cachecontrol
@@ -140,7 +140,7 @@ urllib3==1.26.16
     #   dulwich
     #   poetry
     #   requests
-virtualenv==20.24.1
+virtualenv==20.24.2
     # via
     #   poetry
     #   pre-commit
