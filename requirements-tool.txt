@@ -131,7 +131,7 @@ shellingham==1.5.0.post1
     # via poetry
 six==1.16.0
     # via html5lib
-tomlkit==0.11.8
+tomlkit==0.12.1
     # via poetry
 trove-classifiers==2023.7.6
     # via poetry
