@@ -56,7 +56,7 @@ jeepney==0.8.0
     # via
     #   keyring
     #   secretstorage
-jsonschema==4.18.4
+jsonschema==4.18.6
     # via poetry
 jsonschema-specifications==2023.7.1
     # via jsonschema
@@ -78,7 +78,7 @@ packaging==23.1
     #   poetry
 pexpect==4.8.0
     # via poetry
-pip-tools==7.1.0
+pip-tools==7.2.0
     # via -r requirements-tool.in
 pkginfo==1.9.6
     # via poetry
