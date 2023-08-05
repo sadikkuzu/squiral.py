@@ -110,7 +110,7 @@ pyyaml==6.0.1
     # via pre-commit
 rapidfuzz==2.15.1
     # via cleo
-referencing==0.30.0
+referencing==0.30.1
     # via
     #   jsonschema
     #   jsonschema-specifications
