@@ -56,7 +56,7 @@ jeepney==0.8.0
     # via
     #   keyring
     #   secretstorage
-jsonschema==4.18.6
+jsonschema==4.19.0
     # via poetry
 jsonschema-specifications==2023.7.1
     # via jsonschema
@@ -133,7 +133,7 @@ six==1.16.0
     # via html5lib
 tomlkit==0.12.1
     # via poetry
-trove-classifiers==2023.7.6
+trove-classifiers==2023.8.7
     # via poetry
 urllib3==1.26.16
     # via
