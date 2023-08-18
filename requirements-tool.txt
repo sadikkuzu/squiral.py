@@ -24,7 +24,7 @@ charset-normalizer==3.2.0
     # via requests
 cleo==2.0.1
     # via poetry
-click==8.1.6
+click==8.1.7
     # via pip-tools
 crashtest==0.4.1
     # via
@@ -127,7 +127,7 @@ rpds-py==0.9.2
     #   referencing
 secretstorage==3.3.3
     # via keyring
-shellingham==1.5.2
+shellingham==1.5.3
     # via poetry
 six==1.16.0
     # via html5lib
