@@ -38,7 +38,7 @@ filelock==3.12.2
     # via
     #   cachecontrol
     #   virtualenv
-identify==2.5.26
+identify==2.5.27
     # via pre-commit
 idna==3.4
     # via requests
@@ -76,7 +76,7 @@ platformdirs==3.10.0
     # via
     #   poetry
     #   virtualenv
-poetry==1.6.0
+poetry==1.6.1
     # via
     #   -r requirements-tool.in
     #   poetry-plugin-export
