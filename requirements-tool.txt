@@ -125,7 +125,7 @@ virtualenv==20.24.3
     # via
     #   poetry
     #   pre-commit
-wheel==0.41.1
+wheel==0.41.2
     # via pip-tools
 zipp==3.16.2
     # via importlib-metadata
