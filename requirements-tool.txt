@@ -32,7 +32,7 @@ cryptography==41.0.3
     # via secretstorage
 distlib==0.3.7
     # via virtualenv
-dulwich==0.21.5
+dulwich==0.21.6
     # via poetry
 filelock==3.12.3
     # via
@@ -86,7 +86,7 @@ poetry-core==1.7.0
     #   poetry-plugin-export
 poetry-plugin-export==1.5.0
     # via poetry
-pre-commit==3.3.3
+pre-commit==3.4.0
     # via -r requirements-tool.in
 ptyprocess==0.7.0
     # via pexpect
