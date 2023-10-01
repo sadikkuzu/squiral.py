@@ -18,7 +18,7 @@ cffi==1.16.0
     # via cryptography
 cfgv==3.4.0
     # via pre-commit
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
     # via requests
 cleo==2.0.1
     # via poetry
@@ -38,7 +38,7 @@ filelock==3.12.4
     # via
     #   cachecontrol
     #   virtualenv
-identify==2.5.29
+identify==2.5.30
     # via pre-commit
 idna==3.4
     # via requests
