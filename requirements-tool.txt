@@ -62,7 +62,7 @@ msgpack==1.0.7
     # via cachecontrol
 nodeenv==1.8.0
     # via pre-commit
-packaging==23.1
+packaging==23.2
     # via
     #   build
     #   poetry
