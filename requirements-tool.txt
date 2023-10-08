@@ -100,7 +100,7 @@ pyrsistent==0.19.3
     # via jsonschema
 pyyaml==6.0.1
     # via pre-commit
-rapidfuzz==2.15.1
+rapidfuzz==2.15.2
     # via cleo
 requests==2.31.0
     # via
