@@ -11,7 +11,9 @@ build==0.10.0
     #   pip-tools
     #   poetry
 cachecontrol[filecache]==0.13.1
-    # via poetry
+    # via
+    #   cachecontrol
+    #   poetry
 certifi==2023.7.22
     # via requests
 cffi==1.16.0

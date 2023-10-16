@@ -5,7 +5,9 @@
 #    pip-compile requirements-dev.in
 #
 coverage[toml]==7.3.2
-    # via pytest-cov
+    # via
+    #   coverage
+    #   pytest-cov
 iniconfig==2.0.0
     # via pytest
 packaging==23.2
