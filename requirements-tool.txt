@@ -11,7 +11,9 @@ build==0.10.0
     #   pip-tools
     #   poetry
 cachecontrol[filecache]==0.13.1
-    # via poetry
+    # via
+    #   cachecontrol
+    #   poetry
 certifi==2023.7.22
     # via requests
 cffi==1.16.0
@@ -72,7 +74,7 @@ pip-tools==7.3.0
     # via -r requirements-tool.in
 pkginfo==1.9.6
     # via poetry
-platformdirs==3.10.0
+platformdirs==3.11.0
     # via
     #   poetry
     #   virtualenv
@@ -86,7 +88,7 @@ poetry-core==1.7.0
     #   poetry-plugin-export
 poetry-plugin-export==1.5.0
     # via poetry
-pre-commit==3.4.0
+pre-commit==3.5.0
     # via -r requirements-tool.in
 ptyprocess==0.7.0
     # via pexpect
@@ -100,7 +102,7 @@ pyrsistent==0.19.3
     # via jsonschema
 pyyaml==6.0.1
     # via pre-commit
-rapidfuzz==2.15.1
+rapidfuzz==2.15.2
     # via cleo
 requests==2.31.0
     # via
@@ -115,9 +117,9 @@ shellingham==1.5.3
     # via poetry
 tomlkit==0.12.1
     # via poetry
-trove-classifiers==2023.9.19
+trove-classifiers==2023.10.18
     # via poetry
-urllib3==2.0.5
+urllib3==2.0.7
     # via
     #   dulwich
     #   requests
