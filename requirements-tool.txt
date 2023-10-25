@@ -30,7 +30,7 @@ crashtest==0.4.1
     # via
     #   cleo
     #   poetry
-cryptography==41.0.4
+cryptography==41.0.5
     # via secretstorage
 distlib==0.3.7
     # via virtualenv
@@ -113,7 +113,7 @@ requests-toolbelt==1.0.0
     # via poetry
 secretstorage==3.3.3
     # via keyring
-shellingham==1.5.3
+shellingham==1.5.4
     # via poetry
 tomlkit==0.12.1
     # via poetry
