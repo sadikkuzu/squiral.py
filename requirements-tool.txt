@@ -98,7 +98,7 @@ pyproject-hooks==1.0.0
     # via
     #   build
     #   poetry
-pyrsistent==0.19.3
+pyrsistent==0.20.0
     # via jsonschema
 pyyaml==6.0.1
     # via pre-commit
