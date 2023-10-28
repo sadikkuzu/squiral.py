@@ -36,7 +36,7 @@ distlib==0.3.7
     # via virtualenv
 dulwich==0.21.6
     # via poetry
-filelock==3.12.4
+filelock==3.13.0
     # via
     #   cachecontrol
     #   virtualenv
