@@ -22,7 +22,7 @@ cfgv==3.4.0
     # via pre-commit
 charset-normalizer==3.3.1
     # via requests
-cleo==2.0.1
+cleo==2.1.0
     # via poetry
 click==8.1.7
     # via pip-tools
@@ -36,7 +36,7 @@ distlib==0.3.7
     # via virtualenv
 dulwich==0.21.6
     # via poetry
-filelock==3.13.0
+filelock==3.13.1
     # via
     #   cachecontrol
     #   virtualenv
@@ -84,7 +84,7 @@ poetry-core==1.7.0
     # via
     #   poetry
     #   poetry-plugin-export
-poetry-plugin-export==1.5.0
+poetry-plugin-export==1.6.0
     # via poetry
 pre-commit==3.5.0
     # via -r requirements-tool.in
@@ -100,7 +100,7 @@ pyrsistent==0.20.0
     # via jsonschema
 pyyaml==6.0.1
     # via pre-commit
-rapidfuzz==2.15.2
+rapidfuzz==3.4.0
     # via cleo
 requests==2.31.0
     # via
@@ -125,7 +125,7 @@ virtualenv==20.24.6
     # via
     #   poetry
     #   pre-commit
-wheel==0.41.2
+wheel==0.41.3
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
