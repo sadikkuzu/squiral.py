@@ -100,7 +100,7 @@ pyrsistent==0.20.0
     # via jsonschema
 pyyaml==6.0.1
     # via pre-commit
-rapidfuzz==3.5.1
+rapidfuzz==3.5.2
     # via cleo
 requests==2.31.0
     # via
@@ -113,7 +113,7 @@ secretstorage==3.3.3
     # via keyring
 shellingham==1.5.4
     # via poetry
-tomlkit==0.12.1
+tomlkit==0.12.2
     # via poetry
 trove-classifiers==2023.10.18
     # via poetry
