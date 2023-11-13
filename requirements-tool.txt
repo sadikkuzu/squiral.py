@@ -52,7 +52,7 @@ jeepney==0.8.0
     # via
     #   keyring
     #   secretstorage
-keyring==24.2.0
+keyring==24.3.0
     # via poetry
 more-itertools==10.1.0
     # via jaraco-classes
