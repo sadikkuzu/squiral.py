@@ -34,7 +34,7 @@ distlib==0.3.7
     # via virtualenv
 dulwich==0.21.6
     # via poetry
-fastjsonschema==2.18.1
+fastjsonschema==2.19.0
     # via poetry
 filelock==3.13.1
     # via
@@ -111,7 +111,7 @@ shellingham==1.5.4
     # via poetry
 tomlkit==0.12.2
     # via poetry
-trove-classifiers==2023.11.13
+trove-classifiers==2023.11.14
     # via poetry
 urllib3==2.1.0
     # via
