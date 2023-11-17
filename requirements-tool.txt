@@ -74,7 +74,7 @@ platformdirs==3.11.0
     # via
     #   poetry
     #   virtualenv
-poetry==1.7.0
+poetry==1.7.1
     # via
     #   -r requirements-tool.in
     #   poetry-plugin-export
