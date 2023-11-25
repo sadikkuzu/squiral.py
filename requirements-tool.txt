@@ -64,7 +64,7 @@ packaging==23.2
     # via
     #   build
     #   poetry
-pexpect==4.8.0
+pexpect==4.9.0
     # via poetry
 pip-tools==7.3.0
     # via -r requirements-tool.in
