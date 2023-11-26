@@ -42,7 +42,7 @@ filelock==3.13.1
     #   virtualenv
 identify==2.5.32
     # via pre-commit
-idna==3.5
+idna==3.6
     # via requests
 installer==0.7.0
     # via poetry
