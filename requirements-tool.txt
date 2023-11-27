@@ -121,7 +121,7 @@ virtualenv==20.24.7
     # via
     #   poetry
     #   pre-commit
-wheel==0.41.3
+wheel==0.42.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
