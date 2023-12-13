@@ -30,7 +30,7 @@ crashtest==0.4.1
     #   poetry
 cryptography==41.0.7
     # via secretstorage
-distlib==0.3.7
+distlib==0.3.8
     # via virtualenv
 dulwich==0.21.7
     # via poetry
