@@ -28,7 +28,7 @@ crashtest==0.4.1
     # via
     #   cleo
     #   poetry
-cryptography==41.0.7
+cryptography==42.0.0
     # via secretstorage
 distlib==0.3.8
     # via virtualenv
