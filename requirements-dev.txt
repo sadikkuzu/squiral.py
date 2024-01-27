@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements-dev.in
 #
-coverage[toml]==7.4.0
+coverage[toml]==7.4.1
     # via
     #   coverage
     #   pytest-cov
