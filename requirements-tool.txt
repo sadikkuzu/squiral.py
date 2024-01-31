@@ -28,7 +28,7 @@ crashtest==0.4.1
     # via
     #   cleo
     #   poetry
-cryptography==42.0.1
+cryptography==42.0.2
     # via secretstorage
 distlib==0.3.8
     # via virtualenv
@@ -113,7 +113,7 @@ tomlkit==0.12.3
     # via poetry
 trove-classifiers==2024.1.8
     # via poetry
-urllib3==2.1.0
+urllib3==2.2.0
     # via
     #   dulwich
     #   requests
