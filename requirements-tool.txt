@@ -111,7 +111,7 @@ shellingham==1.5.4
     # via poetry
 tomlkit==0.12.3
     # via poetry
-trove-classifiers==2024.1.8
+trove-classifiers==2024.1.31
     # via poetry
 urllib3==2.2.0
     # via
