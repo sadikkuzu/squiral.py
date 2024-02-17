@@ -9,9 +9,7 @@ build==1.0.3
     #   pip-tools
     #   poetry
 cachecontrol[filecache]==0.13.1
-    # via
-    #   cachecontrol
-    #   poetry
+    # via poetry
 certifi==2024.2.2
     # via requests
 cffi==1.16.0
@@ -28,7 +26,7 @@ crashtest==0.4.1
     # via
     #   cleo
     #   poetry
-cryptography==42.0.2
+cryptography==42.0.3
     # via secretstorage
 distlib==0.3.8
     # via virtualenv
@@ -66,7 +64,7 @@ packaging==23.2
     #   poetry
 pexpect==4.9.0
     # via poetry
-pip-tools==7.3.0
+pip-tools==7.4.0
     # via -r requirements-tool.in
 pkginfo==1.9.6
     # via poetry
@@ -93,6 +91,7 @@ pycparser==2.21
 pyproject-hooks==1.0.0
     # via
     #   build
+    #   pip-tools
     #   poetry
 pyyaml==6.0.1
     # via pre-commit
