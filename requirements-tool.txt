@@ -38,7 +38,7 @@ filelock==3.13.1
     # via
     #   cachecontrol
     #   virtualenv
-identify==2.5.34
+identify==2.5.35
     # via pre-commit
 idna==3.6
     # via requests
@@ -82,7 +82,7 @@ poetry-core==1.8.1
     #   poetry-plugin-export
 poetry-plugin-export==1.6.0
     # via poetry
-pre-commit==3.6.1
+pre-commit==3.6.2
     # via -r requirements-tool.in
 ptyprocess==0.7.0
     # via pexpect
@@ -112,7 +112,7 @@ tomlkit==0.12.3
     # via poetry
 trove-classifiers==2024.1.31
     # via poetry
-urllib3==2.2.0
+urllib3==2.2.1
     # via
     #   dulwich
     #   requests
