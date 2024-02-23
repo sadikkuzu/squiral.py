@@ -110,13 +110,13 @@ shellingham==1.5.4
     # via poetry
 tomlkit==0.12.3
     # via poetry
-trove-classifiers==2024.1.31
+trove-classifiers==2024.2.22
     # via poetry
 urllib3==2.2.1
     # via
     #   dulwich
     #   requests
-virtualenv==20.25.0
+virtualenv==20.25.1
     # via
     #   poetry
     #   pre-commit
