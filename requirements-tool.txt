@@ -8,7 +8,7 @@ build==1.0.3
     # via
     #   pip-tools
     #   poetry
-cachecontrol[filecache]==0.13.1
+cachecontrol[filecache]==0.14.0
     # via poetry
 certifi==2024.2.2
     # via requests
@@ -68,15 +68,15 @@ pip-tools==7.4.0
     # via -r requirements-tool.in
 pkginfo==1.9.6
     # via poetry
-platformdirs==3.11.0
+platformdirs==4.2.0
     # via
     #   poetry
     #   virtualenv
-poetry==1.7.1
+poetry==1.8.0
     # via
     #   -r requirements-tool.in
     #   poetry-plugin-export
-poetry-core==1.8.1
+poetry-core==1.9.0
     # via
     #   poetry
     #   poetry-plugin-export
