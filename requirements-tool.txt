@@ -72,7 +72,7 @@ platformdirs==4.2.0
     # via
     #   poetry
     #   virtualenv
-poetry==1.8.0
+poetry==1.8.1
     # via
     #   -r requirements-tool.in
     #   poetry-plugin-export
