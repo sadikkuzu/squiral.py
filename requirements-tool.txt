@@ -50,7 +50,7 @@ jeepney==0.8.0
     # via
     #   keyring
     #   secretstorage
-keyring==24.3.0
+keyring==24.3.1
     # via poetry
 more-itertools==10.2.0
     # via jaraco-classes
@@ -108,7 +108,7 @@ secretstorage==3.3.3
     # via keyring
 shellingham==1.5.4
     # via poetry
-tomlkit==0.12.3
+tomlkit==0.12.4
     # via poetry
 trove-classifiers==2024.2.23
     # via poetry
