@@ -54,7 +54,7 @@ keyring==24.3.1
     # via poetry
 more-itertools==10.2.0
     # via jaraco-classes
-msgpack==1.0.7
+msgpack==1.0.8
     # via cachecontrol
 nodeenv==1.8.0
     # via pre-commit
