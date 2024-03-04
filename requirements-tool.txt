@@ -66,7 +66,7 @@ pexpect==4.9.0
     # via poetry
 pip-tools==7.4.0
     # via -r requirements-tool.in
-pkginfo==1.9.6
+pkginfo==1.10.0
     # via poetry
 platformdirs==4.2.0
     # via
@@ -110,7 +110,7 @@ shellingham==1.5.4
     # via poetry
 tomlkit==0.12.4
     # via poetry
-trove-classifiers==2024.2.23
+trove-classifiers==2024.3.3
     # via poetry
 urllib3==2.2.1
     # via
