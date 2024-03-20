@@ -80,7 +80,7 @@ poetry-core==1.9.0
     # via
     #   poetry
     #   poetry-plugin-export
-poetry-plugin-export==1.7.0
+poetry-plugin-export==1.7.1
     # via poetry
 pre-commit==3.6.2
     # via -r requirements-tool.in
