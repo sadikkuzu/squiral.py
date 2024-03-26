@@ -34,7 +34,7 @@ dulwich==0.21.7
     # via poetry
 fastjsonschema==2.19.1
     # via poetry
-filelock==3.13.1
+filelock==3.13.3
     # via
     #   cachecontrol
     #   virtualenv
@@ -110,7 +110,7 @@ shellingham==1.5.4
     # via poetry
 tomlkit==0.12.4
     # via poetry
-trove-classifiers==2024.3.3
+trove-classifiers==2024.3.25
     # via poetry
 urllib3==2.2.1
     # via
