@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements-tool.in
 #
-build==1.2.0
+build==1.2.1
     # via
     #   pip-tools
     #   poetry
