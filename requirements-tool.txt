@@ -68,7 +68,7 @@ pip-tools==7.4.1
     # via -r requirements-tool.in
 pkginfo==1.10.0
     # via poetry
-platformdirs==4.2.0
+platformdirs==4.2.1
     # via
     #   poetry
     #   virtualenv
@@ -116,7 +116,7 @@ urllib3==2.2.1
     # via
     #   dulwich
     #   requests
-virtualenv==20.25.3
+virtualenv==20.26.0
     # via
     #   poetry
     #   pre-commit
