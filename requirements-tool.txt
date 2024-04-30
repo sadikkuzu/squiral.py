@@ -34,7 +34,7 @@ dulwich==0.21.7
     # via poetry
 fastjsonschema==2.19.1
     # via poetry
-filelock==3.13.4
+filelock==3.14.0
     # via
     #   cachecontrol
     #   virtualenv
@@ -88,7 +88,7 @@ ptyprocess==0.7.0
     # via pexpect
 pycparser==2.22
     # via cffi
-pyproject-hooks==1.0.0
+pyproject-hooks==1.1.0
     # via
     #   build
     #   pip-tools
@@ -116,7 +116,7 @@ urllib3==2.2.1
     # via
     #   dulwich
     #   requests
-virtualenv==20.26.0
+virtualenv==20.26.1
     # via
     #   poetry
     #   pre-commit
