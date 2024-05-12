@@ -18,7 +18,7 @@ jobs:
       contents: write
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
@@ -26,12 +26,12 @@ jobs:
       run: git log | git shortlog -sne
 
     - name: Set up Python 3.x
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: 3.x
         cache: pip
 
-    - uses: actions/cache@v3
+    - uses: actions/cache@v4
       if: startsWith(runner.os, 'Linux')
       with:
         path: ~/.cache/pre-commit
@@ -43,7 +43,7 @@ jobs:
     - name: Run tests
       run: pytest --cov=. --cov-report=term-missing
 
-    - uses: stefanzweifel/git-auto-commit-action@v4
+    - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: ":arrow_up: Upgrade dependencies"
         branch: master
