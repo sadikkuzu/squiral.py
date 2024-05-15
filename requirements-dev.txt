@@ -16,5 +16,5 @@ pytest==8.2.0
     # via pytest-cov
 pytest-cov==5.0.0
     # via -r requirements-dev.in
-squiral==0.4.4
+squiral==0.4.5
     # via -r requirements.in
