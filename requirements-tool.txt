@@ -68,7 +68,7 @@ pip-tools==7.4.1
     # via -r requirements-tool.in
 pkginfo==1.10.0
     # via poetry
-platformdirs==4.2.1
+platformdirs==4.2.2
     # via
     #   poetry
     #   virtualenv
