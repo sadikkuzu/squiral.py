@@ -95,9 +95,9 @@ pyproject-hooks==1.1.0
     #   poetry
 pyyaml==6.0.1
     # via pre-commit
-rapidfuzz==3.9.1
+rapidfuzz==3.9.2
     # via cleo
-requests==2.32.2
+requests==2.32.3
     # via
     #   cachecontrol
     #   poetry
