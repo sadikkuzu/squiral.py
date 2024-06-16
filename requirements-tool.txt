@@ -32,7 +32,7 @@ distlib==0.3.8
     # via virtualenv
 dulwich==0.21.7
     # via poetry
-fastjsonschema==2.19.1
+fastjsonschema==2.20.0
     # via poetry
 filelock==3.15.1
     # via
