@@ -112,7 +112,7 @@ tomlkit==0.12.5
     # via poetry
 trove-classifiers==2024.5.22
     # via poetry
-urllib3==2.2.1
+urllib3==2.2.2
     # via
     #   dulwich
     #   requests
