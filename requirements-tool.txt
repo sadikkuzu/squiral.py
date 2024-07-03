@@ -95,7 +95,7 @@ pyproject-hooks==1.1.0
     #   poetry
 pyyaml==6.0.1
     # via pre-commit
-rapidfuzz==3.9.3
+rapidfuzz==3.9.4
     # via cleo
 requests==2.32.3
     # via
@@ -110,7 +110,7 @@ shellingham==1.5.4
     # via poetry
 tomlkit==0.12.5
     # via poetry
-trove-classifiers==2024.7.1
+trove-classifiers==2024.7.2
     # via poetry
 urllib3==2.2.2
     # via
