@@ -108,7 +108,7 @@ secretstorage==3.3.3
     # via keyring
 shellingham==1.5.4
     # via poetry
-tomlkit==0.12.5
+tomlkit==0.13.0
     # via poetry
 trove-classifiers==2024.7.2
     # via poetry
