@@ -10,10 +10,10 @@ repos:
     -   id: check-docstring-first
     -   id: check-merge-conflict
     -   id: check-toml
-# -   repo: https://github.com/crate-ci/typos
-#     rev: v1.22.0
-#     hooks:
-#       - id: typos
+-   repo: https://github.com/crate-ci/typos
+    rev: v1.22.0
+    hooks:
+      - id: typos
 -   repo: https://github.com/asottile/pyupgrade
     rev: v3.17.0
     hooks:
@@ -47,7 +47,6 @@ repos:
     rev: v1.11.1
     hooks:
     -   id: mypy
-        additional_dependencies: [types-all]
 -   repo: https://github.com/gitleaks/gitleaks
     rev: v8.18.4
     hooks:
