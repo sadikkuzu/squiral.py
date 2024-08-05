@@ -5,7 +5,7 @@ build-backend = "poetry.masonry.api"
 [tool]
 [tool.poetry]
 name = "squiral.py"
-version = "0.1.1"
+version = "0.2.0"
 description = "squiral - square spiral"
 authors = ["Sadık Kuzu"]
 
@@ -13,7 +13,7 @@ authors = ["Sadık Kuzu"]
 python = "^3.8.1"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.2.0"
-pytest-cov = "^4.0.0"
-flake8 = "^6.0.0"
+pytest = "^8.0.0"
+pytest-cov = "^5.0.0"
+flake8 = "^7.0.0"
 pre-commit = "^3.0.0"
