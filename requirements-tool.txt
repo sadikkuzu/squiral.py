@@ -12,7 +12,7 @@ cachecontrol[filecache]==0.14.0
     # via poetry
 certifi==2024.7.4
     # via requests
-cffi==1.16.0
+cffi==1.17.0
     # via cryptography
 cfgv==3.4.0
     # via pre-commit
@@ -93,9 +93,9 @@ pyproject-hooks==1.1.0
     #   build
     #   pip-tools
     #   poetry
-pyyaml==6.0.1
+pyyaml==6.0.2
     # via pre-commit
-rapidfuzz==3.9.5
+rapidfuzz==3.9.6
     # via cleo
 requests==2.32.3
     # via
