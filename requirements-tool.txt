@@ -12,7 +12,7 @@ cachecontrol[filecache]==0.14.0
     # via poetry
 certifi==2024.8.30
     # via requests
-cffi==1.17.0
+cffi==1.17.1
     # via cryptography
 cfgv==3.4.0
     # via pre-commit
