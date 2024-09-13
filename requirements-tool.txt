@@ -110,9 +110,9 @@ shellingham==1.5.4
     # via poetry
 tomlkit==0.13.2
     # via poetry
-trove-classifiers==2024.7.2
+trove-classifiers==2024.9.12
     # via poetry
-urllib3==2.2.2
+urllib3==2.2.3
     # via
     #   dulwich
     #   requests
