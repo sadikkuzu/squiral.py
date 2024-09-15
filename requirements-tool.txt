@@ -38,9 +38,9 @@ filelock==3.16.0
     # via
     #   cachecontrol
     #   virtualenv
-identify==2.6.0
+identify==2.6.1
     # via pre-commit
-idna==3.8
+idna==3.9
     # via requests
 installer==0.7.0
     # via poetry
