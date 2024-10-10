@@ -16,7 +16,7 @@ cffi==1.17.1
     # via cryptography
 cfgv==3.4.0
     # via pre-commit
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
     # via requests
 cleo==2.1.0
     # via poetry
@@ -28,7 +28,7 @@ crashtest==0.4.1
     #   poetry
 cryptography==43.0.1
     # via secretstorage
-distlib==0.3.8
+distlib==0.3.9
     # via virtualenv
 dulwich==0.21.7
     # via poetry
