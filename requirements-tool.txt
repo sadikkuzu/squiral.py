@@ -58,7 +58,7 @@ msgpack==1.1.0
     # via cachecontrol
 nodeenv==1.9.1
     # via pre-commit
-packaging==24.1
+packaging==24.2
     # via
     #   build
     #   poetry
@@ -120,7 +120,7 @@ virtualenv==20.27.1
     # via
     #   poetry
     #   pre-commit
-wheel==0.44.0
+wheel==0.45.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
