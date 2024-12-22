@@ -20,7 +20,7 @@ charset-normalizer==3.4.0
     # via requests
 cleo==2.1.0
     # via poetry
-click==8.1.7
+click==8.1.8
     # via pip-tools
 crashtest==0.4.1
     # via
