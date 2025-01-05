@@ -38,7 +38,7 @@ filelock==3.16.1
     # via
     #   cachecontrol
     #   virtualenv
-identify==2.6.4
+identify==2.6.5
     # via pre-commit
 idna==3.10
     # via requests
