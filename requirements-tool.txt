@@ -23,14 +23,12 @@ cleo==2.1.0
 click==8.1.8
     # via pip-tools
 crashtest==0.4.1
-    # via
-    #   cleo
-    #   poetry
+    # via cleo
 cryptography==44.0.0
     # via secretstorage
 distlib==0.3.9
     # via virtualenv
-dulwich==0.21.7
+dulwich==0.22.7
     # via poetry
 fastjsonschema==2.21.1
     # via poetry
@@ -46,14 +44,20 @@ installer==0.7.0
     # via poetry
 jaraco-classes==3.4.0
     # via keyring
+jaraco-context==6.0.1
+    # via keyring
+jaraco-functools==4.1.0
+    # via keyring
 jeepney==0.8.0
     # via
     #   keyring
     #   secretstorage
-keyring==24.3.1
+keyring==25.6.0
     # via poetry
 more-itertools==10.5.0
-    # via jaraco-classes
+    # via
+    #   jaraco-classes
+    #   jaraco-functools
 msgpack==1.1.0
     # via cachecontrol
 nodeenv==1.9.1
@@ -62,8 +66,6 @@ packaging==24.2
     # via
     #   build
     #   poetry
-pexpect==4.9.0
-    # via poetry
 pip-tools==7.4.1
     # via -r requirements-tool.in
 pkginfo==1.12.0
@@ -72,20 +74,12 @@ platformdirs==4.3.6
     # via
     #   poetry
     #   virtualenv
-poetry==1.8.5
-    # via
-    #   -r requirements-tool.in
-    #   poetry-plugin-export
-poetry-core==1.9.1
-    # via
-    #   poetry
-    #   poetry-plugin-export
-poetry-plugin-export==1.8.0
+poetry==2.0.0
+    # via -r requirements-tool.in
+poetry-core==2.0.0
     # via poetry
 pre-commit==4.0.1
     # via -r requirements-tool.in
-ptyprocess==0.7.0
-    # via pexpect
 pycparser==2.22
     # via cffi
 pyproject-hooks==1.2.0
