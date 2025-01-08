@@ -8,7 +8,7 @@ build==1.2.2.post1
     # via
     #   pip-tools
     #   poetry
-cachecontrol[filecache]==0.14.1
+cachecontrol[filecache]==0.14.2
     # via poetry
 certifi==2024.12.14
     # via requests
@@ -104,7 +104,7 @@ shellingham==1.5.4
     # via poetry
 tomlkit==0.13.2
     # via poetry
-trove-classifiers==2025.1.6.15
+trove-classifiers==2025.1.7.14
     # via poetry
 urllib3==2.3.0
     # via
