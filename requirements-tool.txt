@@ -74,9 +74,9 @@ platformdirs==4.3.6
     # via
     #   poetry
     #   virtualenv
-poetry==2.0.0
+poetry==2.0.1
     # via -r requirements-tool.in
-poetry-core==2.0.0
+poetry-core==2.0.1
     # via poetry
 pre-commit==4.0.1
     # via -r requirements-tool.in
