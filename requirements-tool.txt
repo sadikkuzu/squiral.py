@@ -104,13 +104,13 @@ shellingham==1.5.4
     # via poetry
 tomlkit==0.13.2
     # via poetry
-trove-classifiers==2025.1.10.15
+trove-classifiers==2025.1.15.22
     # via poetry
 urllib3==2.3.0
     # via
     #   dulwich
     #   requests
-virtualenv==20.28.1
+virtualenv==20.29.0
     # via
     #   poetry
     #   pre-commit
