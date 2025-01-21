@@ -36,7 +36,7 @@ filelock==3.16.1
     # via
     #   cachecontrol
     #   virtualenv
-identify==2.6.5
+identify==2.6.6
     # via pre-commit
 idna==3.10
     # via requests
@@ -78,7 +78,7 @@ poetry==2.0.1
     # via -r requirements-tool.in
 poetry-core==2.0.1
     # via poetry
-pre-commit==4.0.1
+pre-commit==4.1.0
     # via -r requirements-tool.in
 pycparser==2.22
     # via cffi
