@@ -24,7 +24,7 @@ click==8.1.8
     # via pip-tools
 crashtest==0.4.1
     # via cleo
-cryptography==44.0.0
+cryptography==44.0.1
     # via secretstorage
 distlib==0.3.9
     # via virtualenv
