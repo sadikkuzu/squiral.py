@@ -49,7 +49,7 @@ httpcore==1.0.7
     # via httpx
 httpx==0.28.1
     # via pbs-installer
-identify==2.6.7
+identify==2.6.8
     # via pre-commit
 idna==3.10
     # via
