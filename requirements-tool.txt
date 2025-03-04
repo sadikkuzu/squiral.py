@@ -125,7 +125,7 @@ sniffio==1.3.1
     # via anyio
 tomlkit==0.13.2
     # via poetry
-trove-classifiers==2025.2.18.16
+trove-classifiers==2025.3.3.18
     # via poetry
 urllib3==2.3.0
     # via
