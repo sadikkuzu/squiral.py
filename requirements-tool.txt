@@ -41,7 +41,7 @@ filelock==3.17.0
     # via
     #   cachecontrol
     #   virtualenv
-findpython==0.6.2
+findpython==0.6.3
     # via poetry
 h11==0.14.0
     # via httpcore
