@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements-tool.in
 #
-anyio==4.8.0
+anyio==4.9.0
     # via httpx
 build==1.2.2.post1
     # via
