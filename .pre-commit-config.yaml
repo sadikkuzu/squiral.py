@@ -10,7 +10,7 @@ repos:
     -   id: check-docstring-first
     -   id: check-merge-conflict
     -   id: check-toml
--   repo: https://github.com/crate-ci/adhtruong/mirrors-typos
+-   repo: https://github.com/adhtruong/mirrors-typos
     rev: v1.31.0
     hooks:
       - id: typos
