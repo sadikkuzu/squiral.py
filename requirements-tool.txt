@@ -83,6 +83,7 @@ packaging==24.2
     #   build
     #   findpython
     #   poetry
+    #   wheel
 pbs-installer[download,install]==2025.3.17
     # via poetry
 pip-tools==7.4.1
@@ -135,7 +136,7 @@ virtualenv==20.30.0
     # via
     #   poetry
     #   pre-commit
-wheel==0.45.1
+wheel==0.46.1
     # via pip-tools
 zstandard==0.23.0
     # via pbs-installer
