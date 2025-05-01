@@ -10,7 +10,7 @@ build==1.2.2.post1
     # via
     #   pip-tools
     #   poetry
-cachecontrol[filecache]==0.14.2
+cachecontrol[filecache]==0.14.3
     # via poetry
 certifi==2025.4.26
     # via
