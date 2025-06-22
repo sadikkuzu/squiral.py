@@ -14,7 +14,7 @@ pluggy==1.6.0
     # via
     #   pytest
     #   pytest-cov
-pygments==2.19.1
+pygments==2.19.2
     # via pytest
 pytest==8.4.1
     # via pytest-cov
