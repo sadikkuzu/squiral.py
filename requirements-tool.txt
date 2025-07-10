@@ -12,7 +12,7 @@ build==1.2.2.post1
     #   poetry
 cachecontrol[filecache]==0.14.3
     # via poetry
-certifi==2025.6.15
+certifi==2025.7.9
     # via
     #   httpcore
     #   httpx
@@ -83,7 +83,7 @@ packaging==25.0
     #   build
     #   findpython
     #   poetry
-pbs-installer[download,install]==2025.7.2
+pbs-installer[download,install]==2025.7.8
     # via poetry
 pip-tools==7.4.1
     # via -r requirements-tool.in
