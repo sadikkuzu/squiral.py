@@ -12,7 +12,7 @@ build==1.2.2.post1
     #   poetry
 cachecontrol[filecache]==0.14.3
     # via poetry
-certifi==2025.7.9
+certifi==2025.7.14
     # via
     #   httpcore
     #   httpx
