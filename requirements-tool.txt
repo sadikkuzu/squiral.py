@@ -85,7 +85,7 @@ packaging==25.0
     #   poetry
 pbs-installer[download,install]==2025.7.23
     # via poetry
-pip-tools==7.4.1
+pip-tools==7.5.0
     # via -r requirements-tool.in
 pkginfo==1.12.1.2
     # via poetry
