@@ -29,7 +29,7 @@ click==8.2.1
     # via pip-tools
 crashtest==0.4.1
     # via cleo
-cryptography==45.0.5
+cryptography==45.0.6
     # via secretstorage
 distlib==0.4.0
     # via virtualenv
@@ -93,7 +93,7 @@ platformdirs==4.3.8
     # via
     #   poetry
     #   virtualenv
-poetry==2.1.3
+poetry==2.1.4
     # via -r requirements-tool.in
 poetry-core==2.1.3
     # via poetry
@@ -131,7 +131,7 @@ urllib3==2.5.0
     # via
     #   dulwich
     #   requests
-virtualenv==20.33.0
+virtualenv==20.32.0
     # via
     #   poetry
     #   pre-commit
