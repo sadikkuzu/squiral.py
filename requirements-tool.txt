@@ -35,9 +35,9 @@ distlib==0.4.0
     # via virtualenv
 dulwich==0.22.8
     # via poetry
-fastjsonschema==2.21.1
+fastjsonschema==2.21.2
     # via poetry
-filelock==3.18.0
+filelock==3.19.1
     # via
     #   cachecontrol
     #   virtualenv
@@ -83,7 +83,7 @@ packaging==25.0
     #   build
     #   findpython
     #   poetry
-pbs-installer[download,install]==2025.8.8
+pbs-installer[download,install]==2025.8.14
     # via poetry
 pip-tools==7.5.0
     # via -r requirements-tool.in
