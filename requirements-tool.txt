@@ -137,7 +137,7 @@ virtualenv==20.32.0
     #   pre-commit
 wheel==0.45.1
     # via pip-tools
-zstandard==0.23.0
+zstandard==0.24.0
     # via pbs-installer
 
 # The following packages are considered to be unsafe in a requirements file:
