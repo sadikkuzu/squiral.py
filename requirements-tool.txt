@@ -83,7 +83,7 @@ packaging==25.0
     #   build
     #   findpython
     #   poetry
-pbs-installer[download,install]==2025.8.18
+pbs-installer[download,install]==2025.8.27
     # via poetry
 pip-tools==7.5.0
     # via -r requirements-tool.in
@@ -108,7 +108,7 @@ pyproject-hooks==1.2.0
     #   poetry
 pyyaml==6.0.2
     # via pre-commit
-rapidfuzz==3.13.0
+rapidfuzz==3.14.0
     # via cleo
 requests==2.32.5
     # via
