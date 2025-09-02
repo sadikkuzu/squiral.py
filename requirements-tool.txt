@@ -29,7 +29,7 @@ click==8.2.1
     # via pip-tools
 crashtest==0.4.1
     # via cleo
-cryptography==45.0.6
+cryptography==45.0.7
     # via secretstorage
 distlib==0.4.0
     # via virtualenv
