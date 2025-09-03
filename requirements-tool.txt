@@ -70,7 +70,7 @@ jeepney==0.9.0
     #   secretstorage
 keyring==25.6.0
     # via poetry
-more-itertools==10.7.0
+more-itertools==10.8.0
     # via
     #   jaraco-classes
     #   jaraco-functools
@@ -83,7 +83,7 @@ packaging==25.0
     #   build
     #   findpython
     #   poetry
-pbs-installer[download,install]==2025.8.28
+pbs-installer[download,install]==2025.9.2
     # via poetry
 pip-tools==7.5.0
     # via -r requirements-tool.in
