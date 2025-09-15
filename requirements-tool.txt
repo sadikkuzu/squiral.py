@@ -33,7 +33,7 @@ cryptography==45.0.7
     # via secretstorage
 distlib==0.4.0
     # via virtualenv
-dulwich==0.22.8
+dulwich==0.24.1
     # via poetry
 fastjsonschema==2.21.2
     # via poetry
@@ -41,7 +41,7 @@ filelock==3.19.1
     # via
     #   cachecontrol
     #   virtualenv
-findpython==0.6.3
+findpython==0.7.0
     # via poetry
 h11==0.16.0
     # via httpcore
@@ -91,11 +91,12 @@ pkginfo==1.12.1.2
     # via poetry
 platformdirs==4.4.0
     # via
+    #   findpython
     #   poetry
     #   virtualenv
-poetry==2.1.4
+poetry==2.2.0
     # via -r requirements-tool.in
-poetry-core==2.1.3
+poetry-core==2.2.0
     # via poetry
 pre-commit==4.3.0
     # via -r requirements-tool.in
@@ -131,13 +132,13 @@ urllib3==2.5.0
     # via
     #   dulwich
     #   requests
-virtualenv==20.32.0
+virtualenv==20.34.0
     # via
     #   poetry
     #   pre-commit
 wheel==0.45.1
     # via pip-tools
-zstandard==0.24.0
+zstandard==0.25.0
     # via pbs-installer
 
 # The following packages are considered to be unsafe in a requirements file:
