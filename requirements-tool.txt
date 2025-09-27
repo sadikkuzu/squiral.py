@@ -33,7 +33,7 @@ cryptography==46.0.1
     # via secretstorage
 distlib==0.4.0
     # via virtualenv
-dulwich==0.24.1
+dulwich==0.24.2
     # via poetry
 fastjsonschema==2.21.2
     # via poetry
