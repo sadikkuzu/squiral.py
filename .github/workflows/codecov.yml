@@ -8,14 +8,17 @@ jobs:
     name: Code coverage
     steps:
     - uses: actions/checkout@v4
+    - uses: astral-sh/setup-uv@v5
+      with:
+        enable-cache: true
+        cache-dependency-glob: "uv.lock"
     - uses: actions/setup-python@v5
       with:
         python-version: 3.x
-        cache: pip
     - name: Install requirements
-      run: pip install -r requirements-dev.txt
+      run: uv sync --all-extras
     - name: Run tests and collect coverage
-      run: pytest --cov=. --cov-report=term-missing --cov-report=xml
+      run: uv run pytest --cov=. --cov-report=term-missing --cov-report=xml
     - name: Upload coverage reports to Codecov with GitHub Action
       uses: codecov/codecov-action@v4
       env:
