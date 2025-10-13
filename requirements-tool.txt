@@ -51,7 +51,7 @@ httpx==0.28.1
     # via pbs-installer
 identify==2.6.15
     # via pre-commit
-idna==3.10
+idna==3.11
     # via
     #   anyio
     #   httpx
