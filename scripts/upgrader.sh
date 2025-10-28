@@ -4,7 +4,7 @@ set -euxo pipefail
 
 python -m pip install --upgrade pip
 pip install pip-tools
-pip-compile -vU requirements-tool.in
+pip-compile -vU requirements-tool.in || python -m pip install pip==25.0 && pip-compile -vU requirements-tool.in
 pip install -r requirements-tool.txt
 pip-compile -vU
 pip-compile -vU requirements-dev.in
