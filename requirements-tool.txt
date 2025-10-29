@@ -83,7 +83,7 @@ packaging==25.0
     #   build
     #   findpython
     #   poetry
-pbs-installer[download,install]==2025.10.14
+pbs-installer[download,install]==2025.10.28
     # via poetry
 pip-tools==7.5.1
     # via -r requirements-tool.in
