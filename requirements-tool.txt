@@ -98,7 +98,7 @@ poetry==2.2.1
     # via -r requirements-tool.in
 poetry-core==2.2.1
     # via poetry
-pre-commit==4.3.0
+pre-commit==4.4.0
     # via -r requirements-tool.in
 pycparser==2.23
     # via cffi
