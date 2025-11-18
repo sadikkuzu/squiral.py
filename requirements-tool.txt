@@ -68,7 +68,7 @@ jeepney==0.9.0
     # via
     #   keyring
     #   secretstorage
-keyring==25.6.0
+keyring==25.7.0
     # via poetry
 more-itertools==10.8.0
     # via
