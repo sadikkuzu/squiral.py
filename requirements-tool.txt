@@ -126,7 +126,7 @@ tomlkit==0.13.3
     # via poetry
 trove-classifiers==2025.12.1.14
     # via poetry
-urllib3==2.6.0
+urllib3==2.6.1
     # via
     #   dulwich
     #   requests
