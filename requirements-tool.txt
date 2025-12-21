@@ -76,7 +76,7 @@ more-itertools==10.8.0
     #   jaraco-functools
 msgpack==1.1.2
     # via cachecontrol
-nodeenv==1.9.1
+nodeenv==1.10.0
     # via pre-commit
 packaging==25.0
     # via
