@@ -126,11 +126,11 @@ tomlkit==0.13.3
     # via poetry
 trove-classifiers==2025.12.1.14
     # via poetry
-urllib3==2.6.2
+urllib3==2.6.3
     # via
     #   dulwich
     #   requests
-virtualenv==20.35.4
+virtualenv==20.36.0
     # via
     #   poetry
     #   pre-commit
