@@ -49,7 +49,7 @@ httpcore==1.0.9
     # via httpx
 httpx==0.28.1
     # via pbs-installer
-identify==2.6.15
+identify==2.6.16
     # via pre-commit
 idna==3.11
     # via
@@ -124,7 +124,7 @@ shellingham==1.5.4
     # via poetry
 tomlkit==0.13.3
     # via poetry
-trove-classifiers==2025.12.1.14
+trove-classifiers==2026.1.12.15
     # via poetry
 urllib3==2.6.3
     # via
