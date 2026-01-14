@@ -60,7 +60,7 @@ installer==0.7.0
     # via poetry
 jaraco-classes==3.4.0
     # via keyring
-jaraco-context==6.0.2
+jaraco-context==6.1.0
     # via keyring
 jaraco-functools==4.4.0
     # via keyring
@@ -122,7 +122,7 @@ secretstorage==3.5.0
     # via keyring
 shellingham==1.5.4
     # via poetry
-tomlkit==0.13.3
+tomlkit==0.14.0
     # via poetry
 trove-classifiers==2026.1.12.15
     # via poetry
