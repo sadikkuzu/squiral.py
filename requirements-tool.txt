@@ -33,7 +33,7 @@ cryptography==46.0.3
     # via secretstorage
 distlib==0.4.0
     # via virtualenv
-dulwich==0.24.10
+dulwich==0.25.2
     # via poetry
 fastjsonschema==2.21.2
     # via poetry
@@ -83,7 +83,7 @@ packaging==25.0
     #   build
     #   findpython
     #   poetry
-pbs-installer[download,install]==2025.12.17
+pbs-installer[download,install]==2026.1.14
     # via poetry
 pip-tools==7.5.2
     # via -r requirements-tool.in
@@ -94,9 +94,9 @@ platformdirs==4.5.1
     #   findpython
     #   poetry
     #   virtualenv
-poetry==2.2.1
+poetry==2.3.0
     # via -r requirements-tool.in
-poetry-core==2.2.1
+poetry-core==2.3.0
     # via poetry
 pre-commit==4.5.1
     # via -r requirements-tool.in
