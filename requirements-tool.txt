@@ -78,11 +78,12 @@ msgpack==1.1.2
     # via cachecontrol
 nodeenv==1.10.0
     # via pre-commit
-packaging==25.0
+packaging==26.0
     # via
     #   build
     #   findpython
     #   poetry
+    #   wheel
 pbs-installer[download,install]==2026.1.14
     # via poetry
 pip-tools==7.5.2
@@ -100,7 +101,7 @@ poetry-core==2.3.0
     # via poetry
 pre-commit==4.5.1
     # via -r requirements-tool.in
-pycparser==2.23
+pycparser==3.0
     # via cffi
 pyproject-hooks==1.2.0
     # via
@@ -134,7 +135,7 @@ virtualenv==20.36.1
     # via
     #   poetry
     #   pre-commit
-wheel==0.45.1
+wheel==0.46.2
     # via pip-tools
 zstandard==0.25.0
     # via pbs-installer
