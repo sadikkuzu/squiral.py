@@ -33,7 +33,7 @@ cryptography==46.0.4
     # via secretstorage
 distlib==0.4.0
     # via virtualenv
-dulwich==0.25.2
+dulwich==1.0.0
     # via poetry
 fastjsonschema==2.21.2
     # via poetry
@@ -95,9 +95,9 @@ platformdirs==4.5.1
     #   findpython
     #   poetry
     #   virtualenv
-poetry==2.3.1
+poetry==2.3.2
     # via -r requirements-tool.in
-poetry-core==2.3.0
+poetry-core==2.3.1
     # via poetry
 pre-commit==4.5.1
     # via -r requirements-tool.in
