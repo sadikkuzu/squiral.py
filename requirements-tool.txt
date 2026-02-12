@@ -86,7 +86,7 @@ packaging==26.0
     #   wheel
 pbs-installer[download,install]==2026.2.3
     # via poetry
-pip-tools==7.5.2
+pip-tools==7.5.3
     # via -r requirements-tool.in
 pkginfo==1.12.1.2
     # via poetry
