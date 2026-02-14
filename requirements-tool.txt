@@ -37,7 +37,7 @@ dulwich==1.0.0
     # via poetry
 fastjsonschema==2.21.2
     # via poetry
-filelock==3.21.1
+filelock==3.21.2
     # via
     #   cachecontrol
     #   virtualenv
@@ -90,7 +90,7 @@ pip-tools==7.5.3
     # via -r requirements-tool.in
 pkginfo==1.12.1.2
     # via poetry
-platformdirs==4.7.0
+platformdirs==4.7.1
     # via
     #   findpython
     #   poetry
