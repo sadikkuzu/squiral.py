@@ -37,7 +37,7 @@ dulwich==1.1.0
     # via poetry
 fastjsonschema==2.21.2
     # via poetry
-filelock==3.24.2
+filelock==3.24.3
     # via
     #   cachecontrol
     #   virtualenv
@@ -131,7 +131,7 @@ urllib3==2.6.3
     # via
     #   dulwich
     #   requests
-virtualenv==20.36.1
+virtualenv==20.38.0
     # via
     #   poetry
     #   pre-commit
