@@ -131,7 +131,7 @@ urllib3==2.6.3
     # via
     #   dulwich
     #   requests
-virtualenv==20.38.0
+virtualenv==20.39.0
     # via
     #   poetry
     #   pre-commit
