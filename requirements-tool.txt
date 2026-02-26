@@ -12,7 +12,7 @@ build==1.4.0
     #   poetry
 cachecontrol[filecache]==0.14.4
     # via poetry
-certifi==2026.1.4
+certifi==2026.2.25
     # via
     #   httpcore
     #   httpx
@@ -40,6 +40,7 @@ fastjsonschema==2.21.2
 filelock==3.24.3
     # via
     #   cachecontrol
+    #   python-discovery
     #   virtualenv
 findpython==0.7.1
     # via poetry
@@ -94,6 +95,7 @@ platformdirs==4.9.2
     # via
     #   findpython
     #   poetry
+    #   python-discovery
     #   virtualenv
 poetry==2.3.2
     # via -r requirements-tool.in
@@ -108,6 +110,8 @@ pyproject-hooks==1.2.0
     #   build
     #   pip-tools
     #   poetry
+python-discovery==1.0.0
+    # via virtualenv
 pyyaml==6.0.3
     # via pre-commit
 rapidfuzz==3.14.3
@@ -131,7 +135,7 @@ urllib3==2.6.3
     # via
     #   dulwich
     #   requests
-virtualenv==20.39.0
+virtualenv==21.0.0
     # via
     #   poetry
     #   pre-commit
