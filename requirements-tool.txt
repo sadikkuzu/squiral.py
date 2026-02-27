@@ -110,7 +110,7 @@ pyproject-hooks==1.2.0
     #   build
     #   pip-tools
     #   poetry
-python-discovery==1.0.0
+python-discovery==1.1.0
     # via virtualenv
 pyyaml==6.0.3
     # via pre-commit
