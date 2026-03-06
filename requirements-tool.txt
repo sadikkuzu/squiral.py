@@ -91,7 +91,7 @@ pip-tools==7.5.3
     # via -r requirements-tool.in
 pkginfo==1.12.1.2
     # via poetry
-platformdirs==4.9.2
+platformdirs==4.9.4
     # via
     #   findpython
     #   poetry
