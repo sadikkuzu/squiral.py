@@ -21,7 +21,7 @@ cffi==2.0.0
     # via cryptography
 cfgv==3.5.0
     # via pre-commit
-charset-normalizer==3.4.4
+charset-normalizer==3.4.5
     # via requests
 cleo==2.1.0
     # via poetry
@@ -110,7 +110,7 @@ pyproject-hooks==1.2.0
     #   build
     #   pip-tools
     #   poetry
-python-discovery==1.1.0
+python-discovery==1.1.1
     # via virtualenv
 pyyaml==6.0.3
     # via pre-commit
