@@ -85,7 +85,7 @@ packaging==26.0
     #   findpython
     #   poetry
     #   wheel
-pbs-installer[download,install]==2026.3.3
+pbs-installer[download,install]==2026.3.10
     # via poetry
 pip-tools==7.5.3
     # via -r requirements-tool.in
@@ -110,7 +110,7 @@ pyproject-hooks==1.2.0
     #   build
     #   pip-tools
     #   poetry
-python-discovery==1.1.2
+python-discovery==1.1.3
     # via virtualenv
 pyyaml==6.0.3
     # via pre-commit
