@@ -37,7 +37,7 @@ dulwich==1.1.0
     # via poetry
 fastjsonschema==2.21.2
     # via poetry
-filelock==3.25.1
+filelock==3.25.2
     # via
     #   cachecontrol
     #   python-discovery
