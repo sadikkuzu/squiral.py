@@ -398,21 +398,9 @@ wheels = [
 ]
 
 [[package]]
-name = "squiral"
-version = "0.5.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/02/65/faadde4150a7a8b76363cc21af97a9a03843c759955d413f9e7f073d93bc/squiral-0.5.1.tar.gz", hash = "sha256:eb32eb6a46a96cf9b067169094516d43ff5834ec2b61ec27a58f7585adbe452b", size = 3972, upload-time = "2026-03-15T08:54:37.407Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/6d/fa/d2aa0406c79cb43e751c8e006b40a30f24f7e634ad0bc07d3302d17b6a7d/squiral-0.5.1-py3-none-any.whl", hash = "sha256:a3792075d6ef94e7ac35b162491495f9254298b4a5add6e96aaa50f8a24750f3", size = 5608, upload-time = "2026-03-15T08:54:36.329Z" },
-]
-
-[[package]]
 name = "squiral-py"
 version = "0.2.0"
 source = { virtual = "." }
-dependencies = [
-    { name = "squiral" },
-]
 
 [package.dev-dependencies]
 dev = [
@@ -423,7 +411,6 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "squiral" }]
 
 [package.metadata.requires-dev]
 dev = [
