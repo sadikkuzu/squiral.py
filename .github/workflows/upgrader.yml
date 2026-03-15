@@ -31,7 +31,7 @@ jobs:
       if: startsWith(runner.os, 'Linux')
       with:
         path: ~/.cache/pre-commit
-        key: ${{ runner.os }}|pre-commit
+        key: ${{ runner.os }}|pre-commit|${{ env.PY }}|${{ hashFiles('.pre-commit-config.yaml') }}
 
     - name: Run uv upgrade and pre-commit autoupdate
       run: ./scripts/upgrader.sh
