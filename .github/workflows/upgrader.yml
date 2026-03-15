@@ -39,10 +39,7 @@ jobs:
       run: ./scripts/upgrader.sh
 
     - name: Run tests
-      run: |
-        uv run pytest --cov=. --cov-report=term-missing
-        uv pip install -U squiral
-        uvx pip install -U squiral
+      run: uv run pytest --cov=. --cov-report=term-missing
 
     - uses: stefanzweifel/git-auto-commit-action@v7
       with:
@@ -51,3 +48,8 @@ jobs:
         commit_user_name: Upgrader
         commit_user_email: sadikkuzu@hotmail.com
         commit_author: Upgrader <sadikkuzu@hotmail.com>
+
+    - name: Install squiral
+      run: |
+        uv pip install -U squiral
+        uvx pip install -U squiral
