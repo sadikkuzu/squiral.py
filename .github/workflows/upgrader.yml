@@ -25,10 +25,9 @@ jobs:
     - name: git shortlog
       run: git log | git shortlog -sne
 
-    - uses: astral-sh/setup-uv@v5
-
-    - name: Install Python
-      run: uv python install 3.x
+    - uses: astral-sh/setup-uv@v7
+      with:
+        python-version: 3.x
 
     - uses: actions/cache@v4
       if: startsWith(runner.os, 'Linux')
