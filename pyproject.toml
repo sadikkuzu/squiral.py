@@ -1,22 +1,21 @@
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.masonry.api"
-
 [project]
-name = "squiral.py"
+name = "squiral-py"
 version = "0.2.0"
 description = "squiral - square spiral"
 authors = [
     {name = "Sadık Kuzu"}
 ]
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
+dependencies = []
 
-[tool.poetry]
-package-mode = false
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=6.0.0",
+    "flake8>=7.0.0",
+    "pre-commit>=4.0.0",
+]
 
-[tool.poetry.group.dev.dependencies]
-pytest = "^8.0.0"
-pytest-cov = "^6.0.0"
-flake8 = "^7.0.0"
-pre-commit = "^4.0.0"
+[tool.uv]
+package = false

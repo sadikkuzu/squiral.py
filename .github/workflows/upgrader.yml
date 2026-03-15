@@ -18,30 +18,26 @@ jobs:
       contents: write
 
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
       with:
         fetch-depth: 0
 
     - name: git shortlog
       run: git log | git shortlog -sne
 
-    - name: Set up Python 3.x
-      uses: actions/setup-python@v6
-      with:
-        python-version: 3.x
-        cache: pip
+    - uses: astral-sh/setup-uv@v7
 
-    - uses: actions/cache@v4
+    - uses: actions/cache@v5
       if: startsWith(runner.os, 'Linux')
       with:
         path: ~/.cache/pre-commit
         key: ${{ runner.os }}|pre-commit
 
-    - name: Run pip-compile, install requirements, and pre-commit autoupdate
+    - name: Run uv upgrade and pre-commit autoupdate
       run: ./scripts/upgrader.sh
 
     - name: Run tests
-      run: pytest --cov=. --cov-report=term-missing
+      run: uv run pytest --cov=. --cov-report=term-missing
 
     - uses: stefanzweifel/git-auto-commit-action@v7
       with:
