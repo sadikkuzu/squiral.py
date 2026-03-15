@@ -37,7 +37,9 @@ jobs:
       run: ./scripts/upgrader.sh
 
     - name: Run tests
-      run: uv run pytest --cov=. --cov-report=term-missing
+      run: |
+        uv run pytest --cov=. --cov-report=term-missing
+        uvx pip install -U squiral
 
     - uses: stefanzweifel/git-auto-commit-action@v7
       with:
