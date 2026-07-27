@@ -62,6 +62,6 @@ if __name__ == "__main__":  # pragma: no cover
     print("Here is an example:")
     try:
         size = int(sys.argv[1])  # try: python3 squiral.py 7
-    except Exception:
+    except (IndexError, ValueError):
         size = 5
     printout(produce(size))

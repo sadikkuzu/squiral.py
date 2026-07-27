@@ -19,3 +19,7 @@ dev = [
 
 [tool.uv]
 package = false
+
+[tool.ruff.lint.isort]
+# match the one-import-per-line style enforced by reorder-python-imports
+force-single-line = true
